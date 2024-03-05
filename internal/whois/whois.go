@@ -59,6 +59,8 @@ var (
 
 	// nolint: lll
 	expiryRE = regexp.MustCompile(`(?i)(` + strings.Join([]string{
+		"Domain created",
+		"Last modified",
 		"Registrar Registration Expiration Date",
 		"expire-date",
 		"Valid Until",
